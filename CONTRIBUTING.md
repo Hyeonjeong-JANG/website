@@ -38,11 +38,11 @@ Add a file named `your-project.json` in the appropriate category directory:
 | `description` | Yes | One-liner description (keep it under ~100 characters) |
 | `url` | Yes | Primary link (website, repo, or docs) |
 | `category` | Yes | Must match the directory name |
-| `logo` | No | Path relative to `public/` (e.g., `"/logos/your-project.svg"`) |
+| `logo` | Yes | Path relative to `public/` (e.g., `"/logos/your-project.svg"`) |
 | `tags` | No | Array of tags for future filtering |
 | `install_command` | No | CLI install command if you have a skill (see below) |
 
-### 3. Add a logo (optional)
+### 3. Add a logo
 
 Drop your logo in `public/logos/` as an SVG or PNG. Reference it in your JSON:
 
@@ -53,7 +53,7 @@ Drop your logo in `public/logos/` as an SVG or PNG. Reference it in your JSON:
 ### 4. Open a PR
 
 - Branch off `main`
-- Add your JSON file (and logo if applicable)
+- Add your JSON file and logo
 - PR title: `ecosystem: add {Your Project}`
 - We'll review and merge
 
